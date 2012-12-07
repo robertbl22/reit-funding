@@ -1,0 +1,98 @@
+@import url('http://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300italic,300,700');
+/*---------- General -----------*/
+body {
+	font:13px/19px 'Open Sans', Arial, Helvetica, sans-serif;
+	color:#6C6F70;
+}
+.bold {
+	font-weight:700;
+}
+/*---------- Lists -----------*/
+#content ul li{
+	padding-left:13px;
+	background:url(../img/bullet.png) 0 7px no-repeat;
+	margin-bottom:6px;
+}
+#content ul li ul li {
+	background:url(../img/bullet-level2.png) 0 7px no-repeat;
+}
+/*---------- Links ----------*/
+a {
+	color:#F58025;
+	outline:none;
+	cursor:pointer;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a[href^="tel:"] {
+	color:#575757;
+	text-decoration:none;
+}
+.button {
+	display:inline-block;
+	cursor:pointer;
+}
+.button:hover {
+	text-decoration:none;
+}
+/*---------- Headlines ----------*/
+h1 {
+	font-family:'Crimson Text', "Times New Roman", Times, serif;
+	font-size:36px;
+	line-height:32px;
+	font-weight:normal;
+	letter-spacing:-.04em;
+	color:#F58025;
+	display:block;
+	margin-bottom:18px;
+}
+h2 {
+	font-family:'Crimson Text', "Times New Roman", Times, serif;
+	font-size:24px;
+	line-height:30px;
+	font-weight:normal;
+}
+h3 {
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color:#3c3c3c;
+	font-weight: normal;
+	margin-bottom:7px;
+}
+h3.emphasis {
+	color: #F58025;
+}
+.sidebar h3 {
+	color: #F58025; /* orange */
+}
+h6 {
+	font:bold 13px/19px 'Open Sans', Arial, Helvetica, sans-serif;
+	color:#575757;
+}
+h6 a {
+	color:#575757;
+}
+.page-title {
+	/*margin-top:10px;*/
+	margin-bottom: 10px;
+	color: #A2A5A4;
+}
+/*---------- Special ----------*/
+#content .sidebar ul li {
+	color:#A2A5A4;
+}
+.call-to-action, .call-to-action h3 {
+	color: #A2A5A4;
+}
+
+footer {
+	/*font:14px/17px 'Open Sans', Arial, Helvetica, sans-serif;*/
+	font-size:11px;
+	color:#969696;
+}
+footer a{
+	color:#969696;
+}

@@ -1,0 +1,3 @@
+.circle{behavior: url(lib/pie/PIE.htc); position:relative;}
+
+body{min-width:960px;}

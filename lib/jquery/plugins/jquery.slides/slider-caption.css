@@ -1,0 +1,45 @@
+#slides .slide .caption h3 {
+	font-family: "Crimson Text", "Times New Roman", Georgia, Serif;
+	font-size: 24px;
+	padding: 10px;
+	border-top: solid 1px #FFF;
+	border-bottom: solid 1px #FFF;
+	margin: 0 auto 5px auto;
+	width: 260px;
+}
+#slides .slide .caption a {
+	color: #FFF;
+}
+#slides .slide .caption h4 {
+	margin-bottom: 20px;
+}
+#slides .slide .caption .text {
+	width: 100%;
+	padding: 120px 0;
+}
+#slides .slide .caption {
+
+	font: 14px/20px "Open Sans", Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+@media only screen and (max-width: 995px) {
+	#slides .slide .caption h3 {
+		font-size: 18px;
+		padding: 7px;
+		border-top: solid 1px #EA7125;
+		border-bottom: solid 1px #EA7125;
+		margin: 0 auto;
+		width: 220px;
+		margin-bottom: 5px !important;
+	}
+	#slides .slide .caption h4 {
+		width: 240px;
+		margin: 0 auto 20px auto;
+	}
+	#slides .slide .caption .text {
+		padding: 80px 0;
+	}
+	#slides .slide .caption {
+		font-size:13px;
+	}
+}

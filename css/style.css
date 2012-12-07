@@ -1,0 +1,180 @@
+﻿html, body {
+	height:100%;
+}
+body {
+	background: url(../img/body-tail.gif) top center repeat-x #f7f7f7;
+	position:relative;
+	min-width:320px;
+}
+
+/********************************* HEADER *************************************/
+header {
+	width:100%;
+	padding:40px 0 20px;
+}
+#home header {
+	padding:40px 0 0;
+}
+#home header .indent-top {
+	padding-top:20px;
+}
+header h1.logo {
+	margin:0;
+	padding:0;
+}
+header h1.logo a {
+	float: left;
+	padding-left:10px;
+	display:block;
+	width:189px;
+	height:84px;
+	overflow:hidden;
+	background:url(../img/logo.png) 0 0 no-repeat;
+	text-indent:-999em;
+	white-space:nowrap;
+}
+
+/********************************* MARGIN AND BORDER **********************************/
+
+/*---------- Borders ---------*/
+.border-top {
+	border-top:1px solid #cacaca;
+}
+.border-bottom {
+	border-bottom:1px solid #cacaca;
+}
+.border-top-shadow {
+	background:url(../img/border-top-shadow.png) center top no-repeat;
+	background-size:contain;
+}
+.border-bottom-shadow {
+	background:url(../img/border-bottom-shadow.png) center bottom no-repeat;
+	background-size:contain;
+}
+.border-bottom-light {
+	background:url(../img/border-dotted.gif) 0 bottom repeat-x;
+}
+/*---------- Indents ---------*/
+p {
+	margin-bottom:18px
+}
+.indent-top-0 {
+	padding-top:10px;
+}
+.indent-top {
+	padding-top:20px;
+}
+.indent-top-1 {
+	padding-top:30px;
+}
+.indent-bottom-0 {
+	padding-bottom:10px;
+}
+.indent-bottom {
+	padding-bottom:20px;
+}
+.indent-bottom-1 {
+	padding-bottom:30px;
+}
+
+/******************************** BUTTON *************************************/
+.button, .menu .button {
+	white-space: nowrap;
+	color: #FFF;
+	border-bottom: solid 1px #8f4105;
+	border-right: solid 1px #b45913;
+	border-top: solid 1px #f9b27c;
+	border-left: solid 1px #EA7125;
+	background: #f4812b; /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(245,128,37,1) 0%, rgba(234,113,37,1) 26%, rgba(179,83,22,1) 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,128,37,1)), color-stop(26%,rgba(234,113,37,1)), color-stop(99%,rgba(179,83,22,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(245,128,37,1) 0%,rgba(234,113,37,1) 26%,rgba(179,83,22,1) 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(245,128,37,1) 0%,rgba(234,113,37,1) 26%,rgba(179,83,22,1) 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(245,128,37,1) 0%,rgba(234,113,37,1) 26%,rgba(179,83,22,1) 99%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(245,128,37,1) 0%,rgba(234,113,37,1) 26%,rgba(179,83,22,1) 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58025', endColorstr='#b35316',GradientType=0 ); /* IE6-9 */
+}
+.button {
+	font-size: 11px;
+	padding: 2px 12px;
+}
+.call-to-action .button {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+#InvestorLogin {
+	position: absolute;
+	top: -55px;
+	right: 0;
+}
+
+@media only screen and (max-width: 995px) {
+	#InvestorLogin {
+		top: -44px;
+		right: 0;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#InvestorLogin {
+		position: inherit;
+		top: auto;
+		right: auto;
+	}
+	.button {
+		font-size: 13px;
+	}
+}
+
+/******************************** SPECIAL *************************************/
+#content {
+	width:100%;
+}
+.sidebar {
+	background:#fff;
+	padding: 30px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+footer {
+	width:100%;
+	padding:10px 0 40px;
+}
+.map {
+	width: 100%;
+	height: 350px;
+}
+.desktop-only {}
+.featured {}
+.last-item {
+	margin-right:0 !important;
+	margin-bottom:0 !important;
+}
+figure img {
+	/*box-shadow: h-shadow v-shadow blur spread color inset;*/
+	box-shadow: 0 2px 8px 0 #D4D4D4;
+}
+/******************************** DEVICE RESOLUTIONS *************************************/
+@media only screen and (max-width: 995px) {
+p {
+	margin-bottom:14px
+}
+.indent-bottom9, .indent-bottom11 {
+	padding-bottom:25px;
+}
+header {
+	padding-top:29px !important;
+}
+.sidebar {
+	padding: 30px 20px;
+}
+}
+@media only screen and (max-width: 767px) {
+.desktop-only {
+	display:none;
+}
+h3 {
+	margin-bottom:15px !important;
+}
+@media only screen and (max-width: 479px) {
+}
